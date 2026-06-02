@@ -9,7 +9,7 @@ import lombok.Data;
 public class UsuarioEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String id;
+    private Long id;
 
     private String nome;
     private String cpf;
